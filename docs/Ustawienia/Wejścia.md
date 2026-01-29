@@ -1,13 +1,13 @@
 ## Wybór modułu dla poszczególnych wejść
 Każde wejście może pracować w jednym z poniższych trybów: 
 
-  - [**Kontrola dostępu**](#kontrola-dostępu-kd)
-  - [**SSWiN**](#sswin-system-sygnalizacji-włamania-i-napadu)
-  - [**SSWiN** + **KD**](#sswin--kd)
+  - [**Kontrola dostępu**](#kontrola-dostepu-kd)
+  - [**SSWiN**](#sswin)
+  - [**SSWiN** + **KD**](#sswin-kd)
 
 !!! info "Wybór trybu"
 
-    Wybrany tryb określa, jak **interpretowany** jest sygnał z wejścia oraz do jakiego **systemu** trafiają zdarzenia.
+    Tryb określa, jak **interpretowany** jest sygnał z wejścia oraz do jakiego **systemu** trafiają zdarzenia.
 
 ### Kontrola dostępu (KD)
 
@@ -18,10 +18,11 @@ Wejście pracuje **wyłącznie** w ramach systemu kontroli dostępu.
 - rejestruje zdarzenia związane z ruchem osób (np. otwarcie drzwi, przycisk wyjścia, kontaktron)
 - stan wejścia wpływa na logikę przejścia (otwarcie / zamknięcie / naruszenie)
 
-**Przykładowe zastosowania:**
-- kontaktron drzwiowy
-- przycisk wyjścia 
-- czujnik stanu drzwi
+!!! example "Przykładowe zastosowania"
+
+    - kontaktron drzwiowy
+    - przycisk wyjścia 
+    - czujnik stanu drzwi
 
 **Obsługiwane zdarzenia:**
 
@@ -30,9 +31,9 @@ Wejście pracuje **wyłącznie** w ramach systemu kontroli dostępu.
 - drzwi otwarte zbyt długo
 - próba nieautoryzowanego otwarcia
 
-**Uwaga:**
-
-- wejście **nie generuje** alarmów **SSWiN** - zdarzenia są widoczne **wyłącznie** w module **KD**
+!!! warning "Uwaga"
+    
+    Wejście **nie generuje** alarmów **SSWiN** - zdarzenia są widoczne **wyłącznie** w module **KD**
 
 ---
 
@@ -45,12 +46,12 @@ Wejście pracuje **wyłącznie** jako linia alarmowa.
 - monitoruje stan czujnika alarmowego
 - naruszenie wejścia powoduje wygenerowanie zdarzenia alarmowego
 
-**Przykładowe zastosowania:**
+!!! example "Przykładowe zastosowania"
 
-- czujnik ruchu PIR
-- kontaktron okna
-- czujnik zbicia szyby
-- przycisk napadowy
+    - czujnik ruchu PIR
+    - kontaktron okna
+    - czujnik zbicia szyby
+    - przycisk napadowy
 
 **Obsługiwane zdarzenia:**
 
@@ -75,11 +76,11 @@ Wejście pracuje jednocześnie w obu systemach.
 - ten sam sygnał wejściowy jest analizowany równolegle przez **KD** i **SSWiN**
 - zależnie od kontekstu, wejście może generować zdarzenia dostępu lub alarmowe
 
-**Przykładowe zastosowania:**
+!!! example "Przykładowe zastosowania"
 
-- kontaktron drzwiowy chronionych stref
-- drzwi wejściowe do obiektu
-- drzwi w strefie alarmowej
+    - kontaktron drzwiowy chronionych stref  
+    - drzwi wejściowe do obiektu  
+    - drzwi w strefie alarmowej  
 
 **Obsługiwane zdarzenia:**
 
@@ -94,6 +95,6 @@ Wejście pracuje jednocześnie w obu systemach.
 - system uzbrojony → otwarcie drzwi powoduje alarm **SSWiN**  
 - zdarzenia są rejestrowane w **obu** modułach  
 
-**Uwaga:**
+!!! warning "Uwaga"
 
-- tryb **zalecany** dla wejść drzwiowych w chronionych strefach
+    Tryb **zalecany** dla wejść drzwiowych w chronionych strefach

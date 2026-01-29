@@ -41,11 +41,10 @@ Czujniki temperatury sterują przekaźnikami w **trzech stanach**:
 
 - **poniżej zakresu** - (np.) włącz ogrzewanie  
 - **w zakresie** - (np.) włącz wentylację  
-- **powyżej zakresu** - (np.) włącz chłodzenie. 
+- **powyżej zakresu** - (np.) włącz chłodzenie 
 
 !!! info "Wyjścia przekaźnikowe"
-    Dla **każdego stanu** wybiera się **dokładnie jedno** wyjście przekaźnikowe (może to być ten sam przekaźnik w różnych stanach).  
-    Jeżeli potrzebujesz zadziałać **kilkoma** wyjściami w tym samym stanie (np. jednocześnie wentylacja i chłodzenie), zrób to skryptem lub użyj zewnętrznego sprzęgła/rozgałęzienia.
+    Dla **każdego stanu** wybiera się **dokładnie jedno** wyjście przekaźnikowe (może to być ten sam przekaźnik w różnych stanach). Jeżeli potrzebujesz zadziałać **kilkoma** wyjściami w tym samym stanie (np. jednocześnie wentylacja i chłodzenie), zrób to skryptem lub użyj zewnętrznego sprzęgła/rozgałęzienia.
 
 !!! example "Przykład" 
     W strefie *Magazyn* kontroler włącza **wentylację** w przedziale 20–28 °C (stan „w zakresie”). 
@@ -71,14 +70,14 @@ Czujniki temperatury sterują przekaźnikami w **trzech stanach**:
 - dostęp z dowolnej przeglądarki (PC, tablet, smartfon)  
 - role: 
 
-  - **operator** - loguje się i zarządza systemem  
-  - **użytkownik** - korzysta z przejść kartą/PIN-em 
+     **operator** - loguje się i zarządza systemem  
+     **użytkownik** - korzysta z przejść kartą/PIN-em 
 
 ### 3.2. Elementy systemu
 
 - 16 wejść cyfrowych (czujniki drzwi, zalania, ruchu)  
 - 6 wyjść przekaźnikowych 2 A @ 12 VDC  
-- czujniki 1-Wire (temp./wilgotność) 
+- czujniki 1-Wire (temperatura/wilgotność) 
 - do 4 czytników RS-485 (OSDP)  
 - do 4 kamer (snapshot / ANPR)  
 - moduł GSM (SMS sterowanie i powiadomienia)  
@@ -282,8 +281,7 @@ Silnik skryptowy (składnia podobna do `JavaScript`):
 | Warianty              | różne wersje I/O i obudów                         |
 
 !!! info "Redundancja zasilania"
-    Dwa niezależne źródła (PoE+ i 12 VDC) mogą pracować równocześnie - odłączenie jednego **nie przerywa pracy**.   
-    Przewaga nad pojedynczym zasilaniem: większa niezawodność bez dodatkowych UPS/adapterów w małych instalacjach.
+    Dwa niezależne źródła (PoE+ i 12 VDC) mogą pracować równocześnie - odłączenie jednego **nie przerywa pracy**. Przewaga nad pojedynczym zasilaniem: większa niezawodność bez dodatkowych UPS/adapterów w małych instalacjach.
 
 ---
 

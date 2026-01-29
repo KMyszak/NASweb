@@ -1,6 +1,6 @@
 # NASwebio
 
-<img width="330" height="250" alt="obraz" align="left" src="https://github.com/user-attachments/assets/98e7a912-1cca-4e40-b654-f426680bf081" />
+<img width="255"  alt="obraz" align="left" src="https://github.com/user-attachments/assets/98e7a912-1cca-4e40-b654-f426680bf081" />
 
 `NASwebio` to multisystemowy sterownik automatyki budynkowej, który stanowi rozwiązanie typu all-in-one, a dzięki wbudowanej aplikacji webowej `NASweb` nie potrzebuje specjalnych aplikacji.
 

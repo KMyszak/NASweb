@@ -13,7 +13,7 @@ theme:
     - navigation.top
     - navigation.sections
     - navigation.indexes
-    - toc.integrate
+    - navigation.path
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -31,27 +31,27 @@ nav:
       - Home.md
       - NASweb-polski.md
       - NASweb-english.md
-  - Interfejs:
-    - Interfejs/Interfejs.md
+  - Aplikacja:
+    - Aplikacja/Aplikacja.md
     - Panel: 
-      - Interfejs/Panel/index.md
-      - Interfejs/Panel/Pulpit.md
-      - Interfejs/Panel/Urządzenie.md
-      - Interfejs/Panel/Monitor-zdarzeń.md
+      - Aplikacja/Panel/index.md
+      - Aplikacja/Panel/Pulpit.md
+      - Aplikacja/Panel/Urządzenie.md
+      - Aplikacja/Panel/Monitor-zdarzeń.md
 
       - Kontorla dostępu:
-        - Interfejs/Panel/Użytkownicy.md
-        - Interfejs/Panel/Karty.md
-        - Interfejs/Panel/Wzorce-uprawnień.md
-        - Interfejs/Panel/Przejścia-i-Czytniki.md
+        - Aplikacja/Panel/Użytkownicy.md
+        - Aplikacja/Panel/Karty.md
+        - Aplikacja/Panel/Wzorce-uprawnień.md
+        - Aplikacja/Panel/Przejścia-i-Czytniki.md
 
       - SSWiN:
-        - Interfejs/Panel/Strefy.md
-        - Interfejs/Panel/Wejścia.md
-        - Interfejs/Panel/Wyjścia-(strefy).md
+        - Aplikacja/Panel/Strefy.md
+        - Aplikacja/Panel/Wejścia.md
+        - Aplikacja/Panel/Wyjścia-(strefy).md
 
-      - Interfejs/Panel/Wideorejestracja.md
-      - Interfejs/Panel/Status.md
+      - Aplikacja/Panel/Wideorejestracja.md
+      - Aplikacja/Panel/Status.md
 
       - Ustawienia:
         - Ustawienia/Pulpit.md
@@ -66,11 +66,11 @@ nav:
         - Ustawienia/Linki-zewnętrzne.md
         
       - Skrypty:
-        - Interfejs/Panel/Pliki-skryptów.md
-        - Interfejs/Panel/Filtry-skryptów.md
-        - Interfejs/Panel/Logi-skryptów.md
+        - Aplikacja/Panel/Pliki-skryptów.md
+        - Aplikacja/Panel/Filtry-skryptów.md
+        - Aplikacja/Panel/Logi-skryptów.md
 
-      - Interfejs/Panel/Admin.md
+      - Aplikacja/Panel/Admin.md
 
   - Ustawienia:
     - Ustawienia/Pulpit.md
@@ -85,4 +85,4 @@ nav:
     - Ustawienia/Linki-zewnętrzne.md
 
   - Problemy:
-    - Pusto
+    - Problemy.md

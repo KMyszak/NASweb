@@ -103,13 +103,13 @@ Replacing keys with cards, PINs, biometrics, license plates.
 ### 5.2. How NASweb works
 
 - a user is assigned **identifiers** (card, PIN, plate)  
-- the operator builds **permission templates** – access points with schedules and conditions 
+- the operator builds **permission templates** - access points with schedules and conditions 
 - a user may have multiple templates and additional **individual** rights
 
 #### Inheritance, accumulation, and denial
 
-- The system **accumulates rights (logical OR)** from templates and individual grants – the user gets **all** accesses granted by **any** source  
-- **Denial (revocation)** acts like a “grant with the opposite sign”: it **removes** access even if granted elsewhere  
+- The system **accumulates rights (logical OR)** from templates and individual grants - the user gets **all** accesses granted by **any** source  
+- **Denial (revocation)** acts like a *grant with the opposite sign*: it **removes** access even if granted elsewhere  
 
 - **Conflict priorities:**  
     1) **Denial > grant** (denial wins)   
@@ -117,7 +117,7 @@ Replacing keys with cards, PINs, biometrics, license plates.
     3) Schedule: access is active when **at least one** source is active (unless a denial is active at that time)
 
 !!! example "Denial example" 
-    The “Employees” group has Server Room access, but one user gets an **individual denial** on that door – result: **everyone has** access, **except that user**.
+    The “Employees” group has Server Room access, but one user gets an **individual denial** on that door - result: **everyone has** access, **except that user**.
 
 <img width="1180" alt="User edit" src="https://github.com/user-attachments/assets/cc01d60a-d9d2-4656-847d-c98ac232f87a" />  
 📷 **User editing**
@@ -166,7 +166,8 @@ On violation - triggers alarm and notifies.
     If you need **multiple relays** simultaneously for one state, use **scripts** or an external coupler.
 
 !!! example "Example"
-    *Warehouse* zone - ventilation in 20–28 °C; above 28 °C, control switches to the “above” state relay (cooling).  
+    *Warehouse* zone - ventilation in 20–28 °C.  
+    Above 28 °C, control switches to the “above” state relay (cooling).  
 
 <img width="1178" alt="HVAC config" src="https://github.com/user-attachments/assets/9cc6816a-d7f5-4848-abed-ca9bfba9cb13" />  
 📷 **HVAC configuration**
@@ -279,8 +280,7 @@ Script engine (`JavaScript-like`):
 | Variants         | versions with different I/O & housings       |
 
 !!! info "Redundant power"
-    Two independent sources (PoE+ and 12 VDC) can be connected simultaneously - disconnecting one **does not interrupt operation**.  
-    Benefit over single-supply: higher reliability without extra UPS/adapters in small sites.
+    Two independent sources (PoE+ and 12 VDC) can be connected simultaneously - disconnecting one **does not interrupt operation**. Benefit over single-supply: higher reliability without extra UPS/adapters in small sites.
 
 ---
 
