@@ -15,7 +15,7 @@ Każdy użytkownik może:
 
 ## Powiązane strony
 
-- [Edycja użytkownika :material-open-in-new:](Edycja-użytkownika) 
-- [Tworzenie nowego użytkownika :material-open-in-new:](Tworzenie-nowego-użytkownika) 
-- [Menu szybkiej zmiany ustawień :material-open-in-new:](Menu-szybkiej-zmiany-ustawień)
+- [Edycja użytkownika :material-open-in-new:](../../Nasweb_wiki/Edycja-użytkownika.md) 
+- [Tworzenie nowego użytkownika :material-open-in-new:](../../Nasweb_wiki/Tworzenie-nowego-użytkownika.md) 
+- [Menu szybkiej zmiany ustawień :material-open-in-new:](../../Nasweb_wiki/Menu-szybkiej-zmiany-ustawień.md)
 
