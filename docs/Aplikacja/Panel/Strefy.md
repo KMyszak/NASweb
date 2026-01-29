@@ -32,5 +32,6 @@ Zostanie otworzony zaawansowany panel, przez który zmieniamy wszystkie zmienne 
 
 <img width="890" height="468" alt="obraz" src="https://github.com/user-attachments/assets/cef2fe8d-fecd-4b52-b923-4ecfe734ce6d" />  
 
-ℹ️ Każde wejście (**IN**) może być przypisane tylko i wyłącznie do **jednej** strefy
+!!! info ""
+    Każde wejście (**IN**) może być przypisane tylko i wyłącznie do **jednej** strefy
 

@@ -11,4 +11,6 @@ Interfejs łączy w sobie funkcje, które zwykle są realizowane przez kilka oso
 - rejestrator zdarzeń powiązanych z obrazem
 - system powiadomień i integracji zewnętrznych 
 
-**Jedno** urządzenie zastępuje wiele systemów, upraszczając instalację i obniżając koszty. 
+!!! success ""
+
+    **Jedno** urządzenie zastępuje wiele systemów, upraszczając instalację i obniżając koszty. 

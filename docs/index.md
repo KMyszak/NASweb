@@ -2,14 +2,6 @@
 
 <div class="grid cards" markdown>
 
-- :material-chip:{ .lg .middle } __Kontroler__
-
-    ---
-
-    Dowiedz się, jak działa nasz kontroler, jakie funkcje oferuje i w jaki sposób integruje się z systemem.
-
-    [:octicons-arrow-right-24: Więcej](NASwebio.md)
-
 - :material-laptop:{ .lg .middle } __Aplikacja__
 
     ---
@@ -17,6 +9,14 @@
     Odkryj funkcje aplikacji klienckiej, intuicyjny interfejs użytkownika i sposoby konfiguracji, które ułatwiają codzienną pracę.
 
     [:octicons-arrow-right-24: Więcej](NASweb.md)
+
+- :material-chip:{ .lg .middle } __Kontroler__
+
+    ---
+
+    Dowiedz się, jak działa nasz kontroler, jakie funkcje oferuje i w jaki sposób integruje się z systemem.
+
+    [:octicons-arrow-right-24: Więcej](NASwebio.md)
 
 - :material-help:{ .lg .middle } __FAQ__
 
