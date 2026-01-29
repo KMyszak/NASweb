@@ -1,10 +1,5 @@
 # Dokumentacja
 
-## Language / Język
- [🇵🇱 Polska wersja](NASweb-polski.md)  
- [🇬🇧 English version](NASweb-english.md)
-
-
 ## NASweb / NASwebio
 
 **NASweb** - oprogramowanie wbudowane (aplikacja webowa)    
